@@ -10,10 +10,11 @@ layout: compress
     {% include analytics.html %}
     {% include head.html %}
     {% include head/custom.html %}
-    {% include head/cookie-banner.html %}
+    <!-- {% include head/cookie-banner.html %} -->
   </head>
 
   <body>
+    {% include gtm.html %}
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
