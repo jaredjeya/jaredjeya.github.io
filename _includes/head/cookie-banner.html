@@ -1,0 +1,62 @@
+<link rel="stylesheet" id="silktide-consent-manager-css" href="assets/css/silktide-consent-manager.css">
+<script src="assets/js/silktide-consent-manager.js"></script>
+<script>
+    silktideCookieBannerManager.updateCookieBannerConfig({
+        background: {
+            showBackground: true
+        },
+        cookieIcon: {
+            position: "bottomRight"
+        },
+        cookieTypes: [
+            {
+                id: "necessary",
+                name: "Necessary",
+                description: "<p>These cookies are necessary for the website to function properly and cannot be switched off. For example, remembering your consent preferences.</p>",
+                required: true,
+                onAccept: function () {
+                    console.log('Neccessary cookies accepted');
+                }
+            },
+            {
+                id: "analytical",
+                name: "Analytical",
+                description: "<p>These cookies help us improve the site by tracking which pages are most popular and how visitors move around the site.</p>",
+                required: false,
+                onAccept: function () {
+                    gtag('consent', 'update', {
+                        analytics_storage: 'granted',
+                    });
+                    dataLayer.push({
+                        'event': 'consent_accepted_analytical',
+                    });
+                },
+                onReject: function () {
+                    gtag('consent', 'update', {
+                        analytics_storage: 'denied',
+                    });
+                }
+            }
+        ],
+        text: {
+            banner: {
+                description: "<p>I use Google Analytics on this website to track how visitors use this website and where they're coming from. If you don't want to be tracked, click reject or close this banner.&nbsp;</p>",
+                acceptAllButtonText: "Accept",
+                acceptAllButtonAccessibleLabel: "Accept analytics",
+                rejectNonEssentialButtonText: "Reject",
+                rejectNonEssentialButtonAccessibleLabel: "Reject analytics",
+                preferencesButtonText: "Preferences",
+                preferencesButtonAccessibleLabel: "Toggle preferences"
+            },
+            preferences: {
+                title: "Turn off analytics",
+                description: "<p>You choose whether to allow the collection of data. Your cookie preferences will apply across our website.</p>",
+                creditLinkText: "Get this banner for free",
+                creditLinkAccessibleLabel: "Get this banner for free"
+            }
+        },
+        position: {
+            banner: "bottomRight"
+        }
+    });
+</script>
