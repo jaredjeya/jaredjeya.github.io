@@ -13,6 +13,6 @@ citation: ' Jared Jeyaretnam,  Christopher Turner,  Arijeet Pal, &quot;Renormali
 Topology and many-body localization (MBL) have opened new avenues for preserving quantum information at finite energy density.
 Resonant delocalization plays a crucial role in destabilizing these phenomena.
 In this paper, we study the statistical properties of many-body resonances in a disordered interacting Ising model—which can host symmetry-protected topological order—using a Clifford circuit encoding of the real-space renormalization group which allows the resonant properties of the wave functions to be efficiently characterized.
-Our findings show that both the trivial and topologically ordered MBL phases remain stable in the presence of the resonances but, in the vicinity of the transition between them, localization is destabilized by resonance proliferation.
+Our findings show that both the trivial and topologically ordered MBL phases remain stable in the presence of the resonances but, in the vicinity of the transition between them, **localization is destabilized by resonance proliferation**.
 Diverging susceptibility towards the development of an avalanche instability suggests an intervening ergodic phase. We are also able to access the local integrals of motion in the MBL phases and identify the topological edge-mode operators in the ordered phase.
 Our results have important implications for the stability of MBL and phase transitions between distinct MBL phases with and without symmetries.

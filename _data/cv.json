@@ -1,152 +1,139 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Dr Jared Jeyaretnam",
+    "email": "jared.jeyaretnam@nottingham.ac.uk",
+    "website": "https://jaredjeya.github.io",
+    "summary": "I am a Research Fellow at the University of Nottingham, where I work on non-equilbrium quantum-many body dynamics, with a particular interest in ergodicity-breaking phenomena, quantum information, tensor networks, and quantum circuit approaches.",
     "location": {
-      "address": "",
+      "address": "University of Nottingham",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Nottingham",
+      "countryCode": "UK"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=A89bONwAAAAJ"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0002-8316-9025"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "jaredjeya",
+        "url": "https://github.com/jaredjeya"
+      },
+      {
+        "network": "arXiv",
+        "username": "",
+        "url": "https://arxiv.org/a/jeyaretnam_j_1.html"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "company": "University of Nottingham, UK",
+      "position": "Research Fellow",
+      "website": "https://www.nottingham.ac.uk",
+      "startDate": "2025",
+      "endDate": "present",
+      "summary": "I work on non-equilbrium quantum-many body dynamics, with a particular interest in ergodicity-breaking phenomena, quantum information, tensor networks, and quantum circuit approaches.",
+      "highlights": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "company": "University of Leeds, UK",
+      "position": "Research Fellow",
+      "website": "https://www.ucl.ac.uk",
+      "startDate": "2023",
+      "endDate": "2025",
+      "summary": "Working with the Theory Group, I researched out-of-equilibrium phenomena such as Hilbert space fragmentation in lattice gauge theories and many-body localisation, using diverse numerical techniques such as exact diagonalisation, tensor networks, perturbation theory, Clifford circuits, and the real-space renormalisation group.",
+      "highlights": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "education": [
+    {
+      "institution": "University College London, UK",
+      "area": "PhD in Theoretical Condensed Matter Physics",
+      "studyType": "PhD",
+      "startDate": "2019",
+      "endDate": "2023",
+      "highlights": [
+        "<b>Thesis</b>: <i>Ergodicity breaking and stabilisation of quantum order</i>",
+        "<b>Supervisor</b>: Prof. Arijeet Pal"
+      ]
+    },
+    {
+      "institution": "University of Cambridge, UK",
+      "area": "MSci. in Natural Sciences",
+      "studyType": "",
+      "startDate": "2015",
+      "endDate": "2019",
+      "gpa": "Achieved a <b>high first</b> in all four years (including top first in Part II, for which I was awarded the Hartree & Clerk Maxwell Prize and the Ver Heyden de Lancey Prize)",
+      "courses": [],
+      "highlights": [
+        "Master's project: Studying edge states in an eightfold quasicrystal, working with Prof Ulrich Schneider in the AMOP group",
+        "Summer research project: Working with Prof. Claudio Castelnovo, I studied the effects of correlated hopping on the dynamics of classical spin ice using Monte Carlo simulations"
+      ]
+    },
+    { 
+      "area": "International Physics Olympiad (IPhO)",
+      "startDate": "2015",
+      "endDate": "2015",      
+      "gpa": "Silver medallist and highest scoring member of the UK team"
+    }
+  ],
+  "skills": [
+
+  ],
+  "languages": [
+    
+  ],
+  "interests": [
+
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Hilbert space fragmentation at the origin of disorder-free localization in the lattice Schwinger model",
+      "publisher": "Communications Physics (featured for April 2025)",
+      "releaseDate": "2025-04-18",
+      "website": "https://www.nature.com/articles/s42005-025-02039-8",
+      "summary": "Recent works have reported potential disorder-free localization in the lattice Schwinger model. Using degenerate perturbation theory and numerical simulations based on matrix product states, we identify the origin of a claimed ultraslow growth of entanglement as due to an approximate Hilbert space fragmentation and an emergent dynamical constraint on particle hopping"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Renormalisation view on resonance proliferation between many-body localised phases",
+      "publisher": "Physical Review B",
+      "releaseDate": "2023-09-11",
+      "website": "https://doi.org/10.1103/PhysRevB.108.094205",
+      "summary": "We study the statistical properties of many-body resonances in a disordered interacting Ising chain - which can host symmetry protected topological order - using a Clifford circuit encoding of the real space renormalisation group. We show that both MBL phases present remain stable to resonances, but in the vicinity of the transition between them localisation is destabilised by resonance proliferation."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Quantum scars and bulk coherence in a symmetry-protected topological phase",
+      "publisher": "Physical Review B",
+      "releaseDate": "2021-07-21",
+      "website": "https://doi.org/10.1103/PhysRevB.104.014424",
+      "summary": "Quantum many-body scars provide a novel mechanism for enhancing coherence of weakly entangled states; while coherent edge modes in certain symmetry protected topological (SPT) phases can persist away from the ground state. We uncover many-body scars and their implications on bulk coherence in such an SPT phase, shedding light on their role in preserving SPT order at finite temperature and the possibility of coherent bulk dynamics in models with SPT order beyond long-lived edge modes."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
+      "name": "Localisation and Hilbert Space Fracture in Lattice Gauge Theories",
+      "event": "Bridging the physics and mathematics of quantum many-body chaos",
+      "date": "2024-06-24",
+      "location": "Helsinki, Finland",
       "description": ""
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "course": "Various courses",
+      "institution": "University College London, UK",
+      "date": "2020--2023",
+      "role": "Postgraduate Teaching Assistant",
+      "description": "I taught on a variety of courses, including assisting with computational workshops, marking work, and leading & designing problem-solving tutorial classes."
     }
   ]
 }

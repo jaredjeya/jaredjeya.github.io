@@ -52,35 +52,7 @@
     <p>{{ cv.basics.summary }}</p>
   </div>
   {% endif %}
-  
-  {% if cv.education.size > 0 %}
-  <!-- Education -->
-  <div class="cv-section">
-    <h2>Education</h2>
-    <ul class="cv-list">
-      {% for education in cv.education %}
-      <li class="cv-item">
-        <div class="cv-item-header">
-          <div class="cv-item-title">{{ education.area }}</div>
-          <div class="cv-item-date">{{ education.endDate }}</div>
-        </div>
-        <div class="cv-item-content">
-          <div class="cv-item-subtitle">{{ education.institution }}</div>
-          {% if education.gpa %}
-          <div class="cv-item-detail">GPA: {{ education.gpa }}</div>
-          {% endif %}
-          {% if education.courses.size > 0 %}
-          <div class="cv-item-detail">
-            <strong>Courses:</strong> {{ education.courses | join: ", " }}
-          </div>
-          {% endif %}
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
-  
+
   {% if cv.work.size > 0 %}
   <!-- Work Experience -->
   <div class="cv-section">
@@ -100,6 +72,41 @@
           {% if work.highlights.size > 0 %}
           <ul class="cv-highlights">
             {% for highlight in work.highlights %}
+            <li>{{ highlight }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if cv.education.size > 0 %}
+  <!-- Education -->
+  <div class="cv-section">
+    <h2>Education</h2>
+    <ul class="cv-list">
+      {% for education in cv.education %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ education.area }}</div>
+          <div class="cv-item-date">{{ education.endDate }}</div>
+        </div>
+        <div class="cv-item-content">
+          <div class="cv-item-subtitle">{{ education.institution }}</div>
+          {% if education.gpa %}
+          <div class="cv-item-detail">{{ education.gpa }}</div>
+          {% endif %}
+          {% if education.courses.size > 0 %}
+          <div class="cv-item-detail">
+            <strong>Courses:</strong> {{ education.courses | join: ", " }}
+          </div>
+          {% endif %}
+          {% if education.highlights.size > 0 %}
+          <ul class="cv-highlights">
+            {% for highlight in education.highlights %}
             <li>{{ highlight }}</li>
             {% endfor %}
           </ul>
