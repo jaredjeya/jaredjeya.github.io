@@ -1,3 +1,5 @@
+{% include base_path %}
+
 <!-- {% if site.analytics.provider and page.analytics != false %}
 
 {% case site.analytics.provider %}
@@ -23,7 +25,7 @@
   gtag('config', 'G-D1V6BFGMQ4');
 </script> -->
 
-<link rel="stylesheet" id="silktide-consent-manager-css" href="assets/css/silktide-consent-manager.css">
+<link rel="stylesheet" id="silktide-consent-manager-css" href="{{ base_path }}/assets/css/silktide-consent-manager.css">
 
 <!-- Google Tag Manager -->
 <script>(function (w, d, s, l, i) {

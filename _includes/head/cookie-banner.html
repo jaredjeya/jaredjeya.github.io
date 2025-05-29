@@ -1,5 +1,7 @@
-<link rel="stylesheet" id="silktide-consent-manager-css" href="assets/css/silktide-consent-manager.css">
-<script src="assets/js/silktide-consent-manager.js"></script>
+{% include base_path %}
+
+<link rel="stylesheet" id="silktide-consent-manager-css" href="{{ base_path }}/assets/css/silktide-consent-manager.css">
+<script src="{{ base_path }}/assets/js/silktide-consent-manager.js"></script>
 <script>
     silktideCookieBannerManager.updateCookieBannerConfig({
         background: {
