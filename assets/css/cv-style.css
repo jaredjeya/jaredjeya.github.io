@@ -41,16 +41,22 @@
 .cv-profile-item {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.4rem;
 }
 
-.cv-profile-item a {
-  color: #2a7ae2;
-  text-decoration: none;
+.cv-profile-link {
+  display: flex;
+  align-items: left;
+  gap: 0.1rem;
 }
 
-.cv-profile-item a:hover {
-  text-decoration: underline;
+.cv-profile-link a {
+  color: #2a7ae2 !important;
+  text-decoration: none !important;
+}
+
+.cv-profile-link a:hover {
+  text-decoration: underline !important;
 }
 
 /* Section Styles */
@@ -73,6 +79,10 @@
 }
 
 /* Item Styles */
+.cv-summary {
+  text-align: justify;
+}
+
 .cv-item {
   margin-bottom: 1.5rem;
 }
@@ -80,33 +90,40 @@
 .cv-item-header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0.5rem;
+  align-items: baseline;
+  margin-bottom: 0.25rem;
 }
 
 .cv-item-title {
   font-weight: bold;
   font-size: 1.1rem;
+  margin-right: 20px
 }
-
 .cv-item-date {
   color: #666;
 }
 
 .cv-item-subtitle {
   color: #666;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+  font-style: italic;
 }
 
-.cv-item-summary {
+.cv-item-detail {
   margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
-.cv-item-highlights {
+.cv-highlights {
   margin-top: 0.5rem;
+  font-size: 0.9rem;
   padding-left: 1.5rem;
+  text-align: justify;
 }
 
-.cv-item-highlights li {
+.cv-highlights li {
   margin-bottom: 0.25rem;
 }
 
@@ -117,6 +134,35 @@
 
 .cv-item-courses li {
   margin-bottom: 0.25rem;
+}
+
+.cv-presentation-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.cv-presentation-title {
+  font-weight: normal;
+  font-size: 0.9rem;
+  margin-right: 20px
+}
+
+.cv-presentation-date {
+  color: #666;
+}
+
+.cv-presentation-subtitle {
+  color: #666;
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.cv-presentation-detail {
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* Skills Styles */

@@ -37,9 +37,14 @@
     {% if cv.basics.profiles.size > 0 %}
     <div class="cv-profiles">
       {% for profile in cv.basics.profiles %}
-      <a href="{{ profile.url }}" target="_blank" class="cv-profile-link">
-        <i class="fab fa-{{ profile.network | downcase }}"></i> {{ profile.network }}
-      </a>
+      <div class="cv-profile-item">
+        <a href="{{ profile.url }}" target="_blank" class="cv-profile-icon">
+          <i class="{{profile.icon}}"></i>
+        </a>
+        <a href="{{ profile.url }}" target="_blank" class="cv-profile-link">
+          {{ profile.network }}
+        </a>
+      </div>
       {% endfor %}
     </div>
     {% endif %}
@@ -49,7 +54,7 @@
   <!-- Summary -->
   <div class="cv-section">
     <h2>Summary</h2>
-    <p>{{ cv.basics.summary }}</p>
+    <p class="cv-summary">{{ cv.basics.summary }}</p>
   </div>
   {% endif %}
 
@@ -62,7 +67,7 @@
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ work.position }}</div>
-          <div class="cv-item-date">{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% endif %}</div>
+          <div class="cv-item-date">{{ work.startDate }}{% if work.endDate %}–{{ work.endDate }}{% endif %}</div>
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ work.company }}</div>
@@ -92,7 +97,7 @@
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ education.area }}</div>
-          <div class="cv-item-date">{{ education.endDate }}</div>
+          <div class="cv-item-date">{{ education.startDate }}{% if education.endDate %}–{{ education.endDate }}{% endif %}</div>
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ education.institution }}</div>
@@ -168,21 +173,18 @@
   {% if cv.presentations.size > 0 %}
   <!-- Presentations/Talks -->
   <div class="cv-section">
-    <h2>Presentations</h2>
+    <h2>Talks and Posters</h2>
     <ul class="cv-list">
       {% for talk in cv.presentations %}
-      <li class="cv-item">
-        <div class="cv-item-header">
-          <div class="cv-item-title">{{ talk.name }}</div>
-          <div class="cv-item-date">{{ talk.date | slice: 0, 4 }}</div>
+      <li class="cv-presentation">
+        <div class="cv-presentation-header">
+          <div class="cv-presentation-title"><strong>{{ talk.type}}:</strong> {{ talk.name }}</div>
+          <div class="cv-presentation-date">{{ talk.date | slice: 0, 4 }}</div>
         </div>
-        <div class="cv-item-content">
-          <div class="cv-item-subtitle">{{ talk.event }}</div>
-          {% if talk.location %}
-          <div class="cv-item-detail">{{ talk.location }}</div>
-          {% endif %}
+        <div class="cv-presentation-content">
+          <div class="cv-presentation-subtitle"><em>{{ talk.event }}</em>{% if talk.location %}, {{ talk.location }}{% endif %}</div>
           {% if talk.description %}
-          <div class="cv-item-detail">{{ talk.description }}</div>
+          <div class="cv-presentation-detail">{{ talk.description }}</div>
           {% endif %}
         </div>
       </li>

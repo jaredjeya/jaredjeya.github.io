@@ -8,7 +8,7 @@ date: 2021-01-01
 location: "London, UK"
 ---
 
-I assisted with tutorials two different courses at UCL, including leading sessions in my final year.
+I assisted with tutorials two different courses at UCL, including leading individual sessions in my final year. For these I had to prepare and present example solutions to the problems, and answer questions from the students about course material.<!--more-->
 
 PHAS0022: Quantum Phhysics
 ======

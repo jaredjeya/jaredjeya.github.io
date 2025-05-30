@@ -5,13 +5,12 @@ category: "thesis"
 permalink: /publication/Ergodicity-breaking-and-stabilisation-of-quantum-order
 date: 2023-12-19
 venue: 'University College London'
+paperurl: 'https://discovery.ucl.ac.uk/id/eprint/10184332/'
 citation: 'Jared Jeyaretnam, "Ergodicity breaking and stabilisation of quantum order (PhD Thesis)." University College London, 2023.'
 ---
-[Access thesis here](https://discovery.ucl.ac.uk/id/eprint/10184332/){:target="_blank"}
+**Supervisor**: Arijeet Pal
 
-**Advisor**: Arijeet Pal
-
-At zero temperature, **symmetry-protected topological** (SPT) order can encode quantum information in an edge strong zero mode, robust to perturbations respecting some symmetry. On the other hand, phenomena like **many-body localisation** (MBL) and **quantum scarring** can arrest the approach to thermal equilibrium, contrary to the ergodic dynamics expected of generic quantum systems. This raises the possibility that by combining SPT order with such ergodicity breaking phenomena, one might be able to construct a **quantum memory that is robust at finite temperature**. However, MBL is threatened by thermal avalanches due to rare low-disorder grains, while the survival of quantum scars in the thermodynamic limit is still uncertain beyond certain finely-tuned models.
+At zero temperature, **symmetry-protected topological** (SPT) order can encode quantum information in an edge strong zero mode, robust to perturbations respecting some symmetry. On the other hand, phenomena like **many-body localisation** (MBL) and **quantum scarring** can arrest the approach to thermal equilibrium, contrary to the ergodic dynamics expected of generic quantum systems. This raises the possibility that by combining SPT order with such ergodicity breaking phenomena, one might be able to construct a **quantum memory that is robust at finite temperature**. However, MBL is threatened by thermal avalanches due to rare low-disorder grains, while the survival of quantum scars in the thermodynamic limit is still uncertain beyond certain finely-tuned models.<!--more-->
  
 To this end, we study the interaction between ergodicity breaking and novel quantum order in spin chains.
 

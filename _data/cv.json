@@ -3,7 +3,7 @@
     "name": "Dr Jared Jeyaretnam",
     "email": "jared.jeyaretnam@nottingham.ac.uk",
     "website": "https://jaredjeya.github.io",
-    "summary": "I am a Research Fellow at the University of Nottingham, where I work on non-equilbrium quantum-many body dynamics, with a particular interest in ergodicity-breaking phenomena, quantum information, tensor networks, and quantum circuit approaches.",
+    "summary": "I am a Research Fellow at the University of Nottingham, where I work on non-equilbrium quantum-many body dynamics, with a particular interest in circuit-based approaches. I previously completed my PhD at University College London before undertaking a postdoc at the University of Leeds.",
     "location": {
       "address": "University of Nottingham",
       "postalCode": "",
@@ -13,21 +13,25 @@
     "profiles": [
       {
         "network": "Google Scholar",
+        "icon": "fa-brands fa-google scholar",
         "username": "",
         "url": "https://scholar.google.com/citations?user=A89bONwAAAAJ"
       },
       {
         "network": "ORCID",
+        "icon": "fa-brands fa-orcid",
         "username": "",
         "url": "https://orcid.org/0000-0002-8316-9025"
       },
       {
         "network": "GitHub",
+        "icon": "fa-brands fa-github",
         "username": "jaredjeya",
         "url": "https://github.com/jaredjeya"
       },
       {
         "network": "arXiv",
+        "icon": "ai ai-arxiv",
         "username": "",
         "url": "https://arxiv.org/a/jeyaretnam_j_1.html"
       }
@@ -40,7 +44,7 @@
       "website": "https://www.nottingham.ac.uk",
       "startDate": "2025",
       "endDate": "present",
-      "summary": "I work on non-equilbrium quantum-many body dynamics, with a particular interest in ergodicity-breaking phenomena, quantum information, tensor networks, and quantum circuit approaches.",
+      "summary": "Jointly supervised by Adam Gammon-Smith, Juan P. Garrahan, Bruno Bertini, and Igor Lesanovsky. I work on non-equilbrium quantum-many body dynamics, with a particular interest in quantum information, tensor networks, and quantum circuits.",
       "highlights": []
     },
     {
@@ -49,7 +53,7 @@
       "website": "https://www.ucl.ac.uk",
       "startDate": "2023",
       "endDate": "2025",
-      "summary": "Working with the Theory Group, I researched out-of-equilibrium phenomena such as Hilbert space fragmentation in lattice gauge theories and many-body localisation, using diverse numerical techniques such as exact diagonalisation, tensor networks, perturbation theory, Clifford circuits, and the real-space renormalisation group.",
+      "summary": "Working with Zlatko Papic and the Theory Group, I researched ergodicity-breaking phenomena such as Hilbert space fragmentation in lattice gauge theories and many-body localisation, using diverse numerical techniques such as exact diagonalisation, tensor networks, perturbation theory, Clifford circuits, and the real-space renormalisation group.",
       "highlights": []
     }
   ],
@@ -62,7 +66,7 @@
       "endDate": "2023",
       "highlights": [
         "<b>Thesis</b>: <i>Ergodicity breaking and stabilisation of quantum order</i>",
-        "<b>Supervisor</b>: Prof. Arijeet Pal"
+        "<b>Supervisor</b>: Arijeet Pal"
       ]
     },
     {
@@ -75,7 +79,7 @@
       "courses": [],
       "highlights": [
         "Master's project: Studying edge states in an eightfold quasicrystal, working with Prof Ulrich Schneider in the AMOP group",
-        "Summer research project: Working with Prof. Claudio Castelnovo, I studied the effects of correlated hopping on the dynamics of classical spin ice using Monte Carlo simulations"
+        "Summer research project: Working with Claudio Castelnovo, I studied the effects of correlated hopping on the dynamics of classical spin ice using Monte Carlo simulations"
       ]
     },
     { 
@@ -98,7 +102,7 @@
   "publications": [
     {
       "name": "Hilbert space fragmentation at the origin of disorder-free localization in the lattice Schwinger model",
-      "publisher": "Communications Physics (featured for April 2025)",
+      "publisher": "Communications Physics <i><b>(featured selection)</b></i>",
       "releaseDate": "2025-04-18",
       "website": "https://www.nature.com/articles/s42005-025-02039-8",
       "summary": "Recent works have reported potential disorder-free localization in the lattice Schwinger model. Using degenerate perturbation theory and numerical simulations based on matrix product states, we identify the origin of a claimed ultraslow growth of entanglement as due to an approximate Hilbert space fragmentation and an emergent dynamical constraint on particle hopping"
@@ -120,10 +124,27 @@
   ],
   "presentations": [
     {
+      "type": "Talk",
       "name": "Localisation and Hilbert Space Fracture in Lattice Gauge Theories",
       "event": "Bridging the physics and mathematics of quantum many-body chaos",
       "date": "2024-06-24",
-      "location": "Helsinki, Finland",
+      "location": "Helsinki",
+      "description": ""
+    },
+    {
+      "type": "Poster",
+      "name": "Quantum Circuit Analysis of an MBL phase transition",
+      "event": "International Quantum Tensor Network",
+      "date": "2024-01-01",
+      "location": "Glasgow",
+      "description": ""
+    },
+    {
+      "type": "Poster",
+      "name": "Renormalisation view on resonance proliferation",
+      "event": "Quantum Information Processing",
+      "date": "2023-02-15",
+      "location": "Ghent",
       "description": ""
     }
   ],

@@ -11,7 +11,7 @@ location: "London, UK"
 At UCL, I assisted with teaching two different undergraduate computing courses: an introduction to programming course for first-year students, and a more advanced course on scientific computing for second-year students.
 
 For both, I assisted with the running of workshops, where students would work through exercises on their
-own and ask for help from demonstrators.
+own and ask for help from demonstrators.<!--more-->
 
 PHAS0007: Practical Physics & Computing
 ======
