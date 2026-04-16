@@ -80,8 +80,10 @@ author:
 publication_category:
   book:
     title: 'Books'
+  preprint:
+    title: 'Preprints'
   manuscript:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conference:
     title: 'Conference Papers'
   thesis:

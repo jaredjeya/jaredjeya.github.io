@@ -9,9 +9,15 @@ redirect_from:
 
 I am interested in non-equilibrium quantum many-body physics - in particular, ergodicity breaking (where matter taken out of equilibrium fails to thermalise), such as when strong quenched disorder is applied to an interacting system to localise it.
 I have also recently been studying fragmentation in lattice gauge theories and tensor network methods.
-At Nottingham, where I work jointly with [Adam Gammon-Smith](https://adamsmith-physics.github.io/index.html), [Juan P. Garrahan](https://jpgarrahan.github.io/About.html), [Bruno Bertini](https://www.birmingham.ac.uk/staff/profiles/physics/bertini-bruno), and [Igor Lesanovsky](https://www.nottingham.ac.uk/physics/people/igor.lesanovsky), I will be taking these themes and combining them with a quantum circuit perspective.
+At Nottingham, where I work jointly with [Adam Gammon-Smith](https://adamsmith-physics.github.io/index.html) and [Juan P. Garrahan](https://jpgarrahan.github.io/About.html), I will be taking these themes and combining them with a quantum circuit perspective.
+
+<!-- [Bruno Bertini](https://www.birmingham.ac.uk/staff/profiles/physics/bertini-bruno), and [Igor Lesanovsky](https://www.nottingham.ac.uk/physics/people/igor.lesanovsky) -->
 
 ## [Publications](/publications/)
+
+*Ergodicity breaking in matrix-product-state effective Hamiltonians*
+: [arXiv:2603.26870 [cond-mat.str-el]](https://arxiv.org/abs/2603.26870) (2026)
+
 *Hilbert space fragmentation at the origin of disorder-free localization in the lattice Schwinger model*  
 : [Commun. Phys. **8**, 172 (2025)](https://doi.org/10.1038/s42005-025-02039-8) (**Featured Selection**)
 
@@ -23,7 +29,7 @@ At Nottingham, where I work jointly with [Adam Gammon-Smith](https://adamsmith-p
 
 ## [Employment](/cv-json/)
 **2025 - present**: Postdoc, University of Nottingham  
-:  Working with [Dr. Adam Gammon-Smith](https://adamsmith-physics.github.io/index.html), [Prof. Juan P. Garrahan](https://jpgarrahan.github.io/About.html), [Dr. Bruno Bertini](https://www.birmingham.ac.uk/staff/profiles/physics/bertini-bruno), and [Prof. Igor Lesanovsky](https://www.nottingham.ac.uk/physics/people/igor.lesanovsky) on quantum circuits and non-equilibrium quantum many-body physics.
+:  Working with [Dr. Adam Gammon-Smith](https://adamsmith-physics.github.io/index.html) and [Prof. Juan P. Garrahan](https://jpgarrahan.github.io/About.html) on quantum circuits and non-equilibrium quantum many-body physics.
 
 **2023 - 2025**: Postdoc, University of Leeds  
 :  Working with [Prof. Zlatko Papic](https://theory.leeds.ac.uk/zlatko-papic/) on lattice gauge theories and many-body localisation
