@@ -138,6 +138,62 @@
   ],
   "presentations": [
     {
+      "type": "Poster",
+      "name": "Ergodicity breaking in matrix-product-state effective Hamiltonians",
+      "event": "SimQuDyn 2026",
+      "date": "2026-04-01",
+      "location": "LMU, Munich",
+      "description": ""
+    },
+    {
+      "type": "Poster",
+      "name": "Hilbert Space Fragmentation and Disorder-Free Localisation in a Lattice Gauge Theory",
+      "event": "New frontiers in out-of-equilibrium quantum many-body dynamics",
+      "date": "2025-08-01",
+      "location": "MPI-PKS, Dresden",
+      "description": ""
+    },
+    {
+      "type": "Poster",
+      "name": "Hilbert Space Fragmentation and Disorder-Free Localisation in a Lattice Gauge Theory",
+      "event": "SimQuDyn 2025",
+      "date": "2025-04-02",
+      "location": "LMU, Munich",
+      "description": ""
+    },
+    {
+      "type": "Talk",
+      "name": "Hilbert Space Fragmentation and Disorder-Free Localisation in a Lattice Gauge Theory",
+      "event": "Nottingham Symposium on Quantum Systems",
+      "date": "2025-04-01",
+      "location": "Nottingham",
+      "description": ""
+    },
+    {
+      "type": "Poster",
+      "name": "Does Many-Body Localization exist in U(1) lattice gauge theories?",
+      "event": "Localisation: Emergent Trends and Novel Platforms",
+      "date": "2024-09-01",
+      "location": "MPI-PKS, Dresden",
+      "description": ""
+    },
+    {
+      "type": "Poster",
+      "name": "Quantum Circuit Analysis of an MBL phase transition",
+      "event": "Localisation: Emergent Trends and Novel Platforms",
+      "date": "2024-09-01",
+      "location": "MPI-PKS, Dresden",
+      "description": ""
+    },
+    {
+      "type": "Poster",
+      "name": "Quantum Circuit Analysis of an MBL phase transition",
+      "event": "International Quantum Tensor Network",
+      "date": "2024-01-01",
+      "location": "Glasgow",
+      "description": ""
+    },
+    {
       "type": "Talk",
       "name": "Localisation and Hilbert Space Fracture in Lattice Gauge Theories",
       "event": "Bridging the physics and mathematics of quantum many-body chaos",
