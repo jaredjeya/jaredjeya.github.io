@@ -2,7 +2,7 @@
 title: "Ergodicity breaking and stabilisation of quantum order (PhD Thesis)"
 collection: publications
 category: "thesis"
-permalink: /publication/Ergodicity-breaking-and-stabilisation-of-quantum-order
+permalink: /publication/2023-12-19-ergodicity-breaking-stabilisation-quantum-order
 date: 2023-12-19
 venue: 'University College London'
 paperurl: 'https://discovery.ucl.ac.uk/id/eprint/10184332/'

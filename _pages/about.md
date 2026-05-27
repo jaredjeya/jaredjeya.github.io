@@ -7,13 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-I am interested in non-equilibrium quantum many-body physics - in particular, ergodicity breaking (where matter taken out of equilibrium fails to thermalise), such as when strong quenched disorder is applied to an interacting system to localise it.
+I am interested in non-equilibrium quantum many-body physics -- in particular, ergodicity breaking (where matter taken out of equilibrium fails to thermalise), such as when strong quenched disorder is applied to an interacting system to localise it.
 I have also recently been studying fragmentation in lattice gauge theories and tensor network methods.
-At Nottingham, where I work jointly with [Adam Gammon-Smith](https://adamsmith-physics.github.io/index.html) and [Juan P. Garrahan](https://jpgarrahan.github.io/About.html), I will be taking these themes and combining them with a quantum circuit perspective.
+At Nottingham, where I work jointly with [Adam Gammon-Smith](https://adamsmith-physics.github.io/index.html) and [Juan P. Garrahan](https://jpgarrahan.github.io/About.html), I have been taking these themes and combining them with a quantum circuit perspective -- for example, studying metastable states in a driven system we simulated on a trapped-ion quantum processor.
 
 <!-- [Bruno Bertini](https://www.birmingham.ac.uk/staff/profiles/physics/bertini-bruno), and [Igor Lesanovsky](https://www.nottingham.ac.uk/physics/people/igor.lesanovsky) -->
 
 ## [Publications](/publications/)
+
+*Quantum trajectory simulation of two-dimensional non-equilibrium steady states with a trapped ion quantum processor*
+: [arXiv:2605.08350 [quant-ph]](https://arxiv.org/abs/2605.08350) (2026)
 
 *Ergodicity breaking in matrix-product-state effective Hamiltonians*
 : [arXiv:2603.26870 [cond-mat.str-el]](https://arxiv.org/abs/2603.26870) (2026)
