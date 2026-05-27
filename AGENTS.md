@@ -69,6 +69,10 @@ Relevant files:
 - Custom favicon set (SVG + PNG variants)
 - **MathJax 3** for LaTeX rendering in publications/pages
 
+## CV Data
+
+The CV page is driven by [`_data/cv.json`](_data/cv.json), a JSON Resume-compatible file containing work history, education, publications, presentations, and teaching. Edits to this file are reflected on the website CV at `/cv/`. The PDF version of the CV is supplied separately and is not generated from this file.
+
 ## Site Configuration
 
 All site-wide settings (author info, social links, analytics, publication categories) are in [`_config.yml`](_config.yml). The site owner is `jaredjeya` — do not change the `url`, `repository`, or GTM ID without explicit instruction.

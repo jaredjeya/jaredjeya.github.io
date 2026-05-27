@@ -101,6 +101,20 @@
   "references": [],
   "publications": [
     {
+      "name": "Quantum trajectory simulation of two-dimensional non-equilibrium steady states with a trapped ion quantum processor",
+      "publisher": "arXiv",
+      "releaseDate": "2026-05-08",
+      "website": "https://arxiv.org/abs/2605.08350",
+      "summary": "We experimentally realise quantum trajectories for a two-dimensional system—of hard-core bosons or fermions—driven by stochastic particle injection and removal at opposite corners of a square lattice. We probe the resulting non-equilibrium steady state and persistent current, finding measurable effects from particle statistics, interactions, and an applied magnetic field, showcasing both the power and current limitations of quantum computers as a platform for studying open quantum many-body systems."
+    },
+    {
+      "name": "Ergodicity breaking in matrix-product-state effective Hamiltonians",
+      "publisher": "arXiv",
+      "releaseDate": "2026-03-27",
+      "website": "https://arxiv.org/abs/2603.26870",
+      "summary": "We demonstrate that the DMRG effective Hamiltonian—an object routinely used to variationally approximate ground states—encodes detailed information about thermalization dynamics far from equilibrium. In the random-field XXZ spin chain, its spectrum captures the thermal-to-many-body-localised transition, including spatially-resolved probes of ergodic bubbles, as well as quantum many-body scars, establishing it as a versatile spectral probe of ergodicity breaking in large systems beyond the reach of exact diagonalisation."
+    },
+    {
       "name": "Hilbert space fragmentation at the origin of disorder-free localization in the lattice Schwinger model",
       "publisher": "Communications Physics <i><b>(featured selection)</b></i>",
       "releaseDate": "2025-04-18",

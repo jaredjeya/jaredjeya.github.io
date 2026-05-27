@@ -98,7 +98,8 @@ Write the abstract verbatim from the source. Do not summarise or paraphrase.
 After creating the file:
 1. Print the frontmatter for the user to review
 2. Note the image placeholder — remind the user to replace `/images/placeholder.png` with the actual figure and update the `alt` text
-3. If the paper was found to be published (has a journal ref) but was added as a preprint (or vice versa), flag this for the user to verify
+3. Further remind the user to update `/_pages/about.md` and `/_data/cv.json`.
+4. If the paper was found to be published (has a journal ref) but was added as a preprint (or vice versa), flag this for the user to verify
 
 ## Reference: existing publication example
 
