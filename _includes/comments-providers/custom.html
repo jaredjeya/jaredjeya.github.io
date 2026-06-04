@@ -1,4 +1,45 @@
 <!-- start custom comments snippet -->
+<style>
+  /* Reset site blockquote styles that bleed into the bluesky-comments widget */
+  #bluesky-comments-section blockquote {
+    font-style: normal;
+    border-left: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Remove blanket underline the package applies to all links */
+  #bluesky-comments-section a {
+    text-decoration: none;
+  }
+
+  /* Inline body links (e.g. "replying on Bluesky") get site link colour + underline */
+  #bluesky-comments-section a[class*="_link_"] {
+    color: var(--global-link-color);
+    text-decoration: underline;
+  }
+  #bluesky-comments-section a[class*="_link_"]:hover {
+    color: var(--global-link-color-hover);
+  }
+
+  /* Restore margin between comment cards (stripped by the package's own * reset) */
+  #bluesky-comments-section [class*="_commentContainer_"] {
+    margin: 1rem 0;
+  }
+
+  /* Increase indentation of nested reply threads */
+  #bluesky-comments-section [class*="_repliesContainer_"] {
+    padding-left: 1.5rem;
+  }
+
+  /* Bold the author display name, keep the @handle at normal weight */
+  #bluesky-comments-section p[class*="_authorName_"] {
+    font-weight: bold;
+  }
+  #bluesky-comments-section span[class*="_handle_"] {
+    font-weight: normal;
+  }
+</style>
 <div id="bluesky-comments-section">
   <p id="bluesky-comments-loading" class="small">Loading comments…</p>
 </div>
