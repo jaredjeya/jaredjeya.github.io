@@ -1,3 +1,40 @@
 <!-- start custom comments snippet -->
+<div id="bluesky-comments-section">
+  <p id="bluesky-comments-loading" class="small">Loading comments…</p>
+</div>
 
+<script type="module">
+  import { createElement } from 'react';
+  import { createRoot } from 'react-dom/client';
+  import { BlueskyComments } from 'https://unpkg.com/bluesky-comments@0.13.1/dist/bluesky-comments.es.js';
+
+  const uri = "{{ page.bluesky_post_uri }}";
+  const container = document.getElementById('bluesky-comments-section');
+  const loading = document.getElementById('bluesky-comments-loading');
+
+  try {
+    const root = createRoot(container);
+    root.render(
+      createElement(BlueskyComments, {
+        uri,
+        onEmpty: () => {
+          if (loading) loading.remove();
+          container.innerHTML =
+            '<p class="small">No comments yet — <a href="' + uri +
+            '" target="_blank" rel="noopener noreferrer">reply on Bluesky</a> to start the discussion!</p>';
+        },
+        onLoad: () => {
+          if (loading) loading.remove();
+        },
+      })
+    );
+  } catch (error) {
+    console.error('Error loading Bluesky comments:', error);
+    if (container) {
+      container.innerHTML =
+        '<p class="small">Unable to load comments. <a href="' + uri +
+        '" target="_blank" rel="noopener noreferrer">View the discussion on Bluesky</a>.</p>';
+    }
+  }
+</script>
 <!-- end custom comments snippet -->

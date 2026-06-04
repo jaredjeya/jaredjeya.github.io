@@ -7,6 +7,7 @@ date: 2026-05-08
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2605.08350'
 citation: 'Anna Dalmasso, Arash Jafarizadeh, Julian Boesl, Jared Jeyaretnam, Sheng-Hsuan Lin, Andrew G. Green, Frank Pollmann, Michael Knap, Juan P. Garrahan, Henrik Dreyer, Adam Gammon-Smith, &quot;Quantum trajectory simulation of two-dimensional non-equilibrium steady states with a trapped ion quantum processor.&quot; arXiv:2605.08350 [quant-ph]'
+bluesky_post_uri: "https://bsky.app/profile/jaredjeya.github.io/post/3mlo3la3qx22j"
 ---
 <!-- TODO: Replace placeholder with actual figure. Suggested: graphical abstract or key result figure. -->
 <img src="/images/quantinuum-2d-driven.svg" alt="Graphical abstract" style="width: 600px; display: block; margin: auto;">

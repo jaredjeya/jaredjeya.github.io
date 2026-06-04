@@ -123,16 +123,16 @@
   /* next/previous buttons */
   &--pager {
     display: block;
-    padding: 1em 2em;
+    padding: 0.5em 1em;
     float: left;
     width: 50%;
     font-family: $sans-serif;
-    font-size: $type-size-5;
+    font-size: $type-size-6;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: var(--global-text-color-light);
-    border: 1px solid var(--global-border-color);
+    color: var(--global-text-color);
+    border: 1px solid var(--global-dark-border-color);
     border-radius: $border-radius;
 
     &:hover {

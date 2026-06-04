@@ -7,6 +7,7 @@ date: 2025-04-18
 venue: 'Communications Physics'
 paperurl: 'https://doi.org/10.1038/s42005-025-02039-8'
 citation: ' Jared Jeyaretnam,  Tanmay Bhore,  Jesse Osborne,  Jad Halimeh,  Zlatko Papic, &quot;Hilbert space fragmentation at the origin of disorder-free localization in the lattice Schwinger model.&quot; Commun. Phys. <b>8</b> 172, 2025.'
+bluesky_post_uri: "https://bsky.app/profile/jaredjeya.github.io/post/3lpofugncmc2c"
 ---
 <img src="/images/LGT_GraphicalAbstractLarge.svg" alt="Graphical abstract" style="width: 600px; display: block; margin: auto;">
 
