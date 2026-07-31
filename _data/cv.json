@@ -101,6 +101,13 @@
   "references": [],
   "publications": [
     {
+      "name": "Role of flavor degrees of freedom in quantum simulations of disorder-free localization",
+      "publisher": "arXiv",
+      "releaseDate": "2026-07-28",
+      "website": "https://arxiv.org/abs/2607.26156",
+      "summary": "Motivated by a recent Google Quantum AI experiment emulating disorder-averaged dynamics via conserved local degrees of freedom, we study how the local spectrum of these static variables controls localization. Combining exact diagonalisation and infinite matrix-product state dynamics, we find binary variables give only a long-lived transient before thermalisation, whereas multilevel variables show consistent localization signatures, indicating that localization depends on the local disorder spectrum and resulting resonant connectivity rather than disorder strength alone."
+    },
+    {
       "name": "Quantum trajectory simulation of two-dimensional non-equilibrium steady states with a trapped ion quantum processor",
       "publisher": "arXiv",
       "releaseDate": "2026-05-08",

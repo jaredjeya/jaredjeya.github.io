@@ -15,6 +15,9 @@ At Nottingham, where I work jointly with [Adam Gammon-Smith](https://adamsmith-p
 
 ## [Publications](/publications/)
 
+*Role of flavor degrees of freedom in quantum simulations of disorder-free localization*
+: [arXiv:2607.26156 [quant-ph]](https://arxiv.org/abs/2607.26156) (2026)
+
 *Quantum trajectory simulation of two-dimensional non-equilibrium steady states with a trapped ion quantum processor*
 : [arXiv:2605.08350 [quant-ph]](https://arxiv.org/abs/2605.08350) (2026)
 

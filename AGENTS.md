@@ -20,6 +20,14 @@ The site runs in a **dev container** (Docker). Jekyll serves at `http://localhos
 | `_pages/` | standalone pages | about, CV, publications listing, etc. |
 | `_posts/` | blog posts | Currently unused (`.bak` files only) |
 
+### Markdown syntax
+
+Most pages are written using markdown (`.md` files).
+
+A full guide to Markdown syntax used on this site can be found at https://github.com/academicpages/academicpages.github.io/blob/master/_pages/markdown.md.
+
+In particular, this site uses **MathJax 3** for LaTeX rendering in publications/pages. Use `\\(...\\)` for inline maths, and `$$...$$` for display.
+
 ### Publication Frontmatter
 
 Publications must include a `category` field matching one of the keys defined in `_config.yml` under `publication_category`. Current categories:
@@ -48,6 +56,17 @@ citation: 'Author One, Author Two, "Title." Venue (Year)'
 
 To add a new category, add an entry to `publication_category` in `_config.yml` and restart the server.
 
+For adding inline maths in the frontmatter (e.g. in the `citation` or `title` fields), it may be necessary to use unescaped `\(...\)`.
+
+### Writing Publication Abstracts / Body Content
+
+Publication body text (e.g. abstracts copied from arXiv) is rendered as **Markdown**, not LaTeX. Source abstracts often contain raw LaTeX commands — convert these before saving:
+
+- `\texttt{...}` → Markdown backticks: `` `...` ``
+- `\href{URL}{text}` → Markdown link: `[text](URL)`
+- `\textit{...}` / `\textbf{...}` → Markdown `*...*` / `**...**`
+- Math (`\(...\)`, `$...$`, symbols, subscripts, etc.) → MathJax delimiters: `\\(...\\)` for inline, `$$...$$` for display. Do not leave bare `$...$` or unescaped `\(...\)`.
+
 ## Key Customisations vs. Upstream Template
 
 ### Google Analytics + Consent Banner
@@ -67,7 +86,6 @@ Relevant files:
 
 [`_includes/head/custom.html`](_includes/head/custom.html) adds:
 - Custom favicon set (SVG + PNG variants)
-- **MathJax 3** for LaTeX rendering in publications/pages
 
 ## CV Data
 
